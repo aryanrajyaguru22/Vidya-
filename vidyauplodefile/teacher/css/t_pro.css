@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Nunito:wght@400;500&display=swap');
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+form input[type="submit"] {
+    flex-basis: 48%;
+    background-color: #4CAF50;
+    color: #fff;
+    /* height: 40px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0rem;
+    font-weight: 300;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+form input[type="submit"]:hover {
+    opacity: 0.8;
+}

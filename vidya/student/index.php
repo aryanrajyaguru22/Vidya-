@@ -1,0 +1,10 @@
+<?php
+    if(isset($_COOKIE["login"]))
+    {   
+        header("location:student_profile.php");
+    }
+    else
+    {
+        header("location:S_Login.php");
+    }
+?>

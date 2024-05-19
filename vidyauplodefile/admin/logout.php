@@ -1,0 +1,9 @@
+<?php
+    if(isset($_COOKIE["adlogin"])){
+        setcookie("adlogin","");
+        header("location:login.php");
+    }
+    else{
+        header("location:login.php");
+    }
+?>

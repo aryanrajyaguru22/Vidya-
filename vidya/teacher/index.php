@@ -1,0 +1,10 @@
+<?php
+    if(isset($_COOKIE["tlogin"]))
+    {   
+        header("location:t_home.php");
+    }
+    else
+    {
+        header("location:T_Login.php");
+    }
+?>
